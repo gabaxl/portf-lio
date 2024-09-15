@@ -1,0 +1,98 @@
+@media (min-width: 768px) and (max-width: 999px) {
+    .servicos-box {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /*Widget 1*/
+    .top {
+        display: flex;
+        width: 100%;
+        height: 40vh;
+        flex-direction: row;
+        justify-content: space-between; /* Distribui espaço entre os itens */
+    }
+
+    .user {
+        width: 70%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .projeto {
+        width: 30%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    /*Widget 2*/
+    .center {
+        display: flex;
+        width: 100%;
+        height: 10vh;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .redes-sociais {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .skills {
+        width: 70%;
+        height: 100%;
+    }
+    
+    /*Widget 3*/
+    .bottom {
+        display: flex;
+        width: 100%;
+        height: 40vh;
+        flex-direction: row-reverse;
+    }
+
+    .contato {
+        width: 30%;
+        height: 100%;
+    }
+
+    .servicos {
+        width: 70%;
+        height: 100%;
+    }
+
+    .servicos-box {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .item-servico {
+        width: 240px;
+        height: 240px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .item-servico i {
+        font-size: 2.5rem;
+    }
+
+    .item-servico span {
+        font-size: 1rem;
+    }
+}
